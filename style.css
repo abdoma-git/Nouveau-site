@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+body{
+    padding:0 ;
+    position:absolute;
+    left: 10px;
+    right: 10px;
+     
+    font-family: 'Raleway', sans-serif
+
+    }
+
+    nav{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    nav .logo a {
+        text-decoration: none;
+        color: black;
+    }
+    nav .onglets a{
+        text-decoration: none;
+        color: #555454;
+        margin-right: 10px;
+    }
+    nav .onglets a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    header{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+       box-shadow:10px 10px 28px 44px rgba(237,85,255,0.08) ;
+
+        -webkit-box-shadow: 10px 10px 28px 44px rgba(237,85,255,0.08); 
+        box-shadow: 10px 10px 28px 44px rgba(237,85,255,0.08);
+    }
+    header h3{
+        margin-top: -10px;
+    }
+    header button {
+        background-color:black;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        
+    }
+    header button:hover{
+        background-color: rgb(218,218,218);
+        color: black;
+    }
+
+    .cartes{
+         margin-top: 80px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+
+    .cartes .carte{
+       max-width: 600px;
+       border: 3px solid black;
+       margin-bottom: 40px;
+       padding: 20px;
+    }
+
+    .cartes .carte h1{
+      margin-top: 0px;
+      text-transform: uppercase;
+    }
+
+    .cartes .carte a{
+        text-decoration:none ;
+        color: black;
+        font-weight: bold;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+
+    footer .droite{
+        display: flex;
+    }
+
+    footer .droite p{
+        margin-top: 0px;
+        margin-right: 10px;
+        cursor: pointer;
+     {
+            
+    @media screen and (max-width: 640px){
+        nav . logo {
+
+            margin-top: 10px;
+        }
+        
+    }
